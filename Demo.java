@@ -17,6 +17,7 @@ public class Demo {
 		WebElement objun=driver.findElement(By.xpath(".//*[@id='txtUsername']"));
 		assertTrue(objun.isDisplayed());
 		System.out.println("username is displayed");
+		
 	}
 
 	

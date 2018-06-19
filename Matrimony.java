@@ -15,7 +15,16 @@ public class Matrimony {
 		driver.findElement(ByLinkText("menusearchoption")).click();
 		driver.findElement(ByXPath(".//*[@id='NAME']")).Sendkeys("prudhvi");
 		driver.findElement(ByXpath(".//*[@id='DOBDAY']")).click();
-	webelement Rdd1=driver.findElement(ByXpath)
+		webelement Rdd1=driver.findElement(ByXpath)
+		select Rselect=newselect(Rdd1)
+		Rselect.selectByvisibletext("");
+		Webelement cdd1=driver.findelement(ByXpath"")
+		select cselect=new select(cdd1)
+		cselect select Byvalue("");
+		driver.findelement(Byxpath("")).click();
+		driver.findElement(Byxpath("")).click();
+		driver.findElement(ByXPath("")).click();
+		
 		
 		
 
